@@ -27,6 +27,6 @@ _2_
 
 ### Two week
 1) Netflix sign up activity 
-2  Netflix slider screen.
+2  Netflix slider screen
 
 
