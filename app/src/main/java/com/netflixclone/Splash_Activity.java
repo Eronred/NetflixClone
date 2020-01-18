@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class Splash_Activity extends AppCompatActivity {
 
     //Thats for duration
-    static int durationofpass=4000;
+    static int duration=4000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +22,6 @@ public class Splash_Activity extends AppCompatActivity {
         //Methods
         splashscreenstart();
 
-
     }
     public void splashscreenstart(){
 
@@ -32,7 +31,7 @@ public class Splash_Activity extends AppCompatActivity {
                 startActivity(new Intent(Splash_Activity.this,NetflixSignIn.class));
                 finish();
             }
-        },durationofpass);
+        },duration);
 
     }
 
