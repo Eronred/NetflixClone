@@ -124,7 +124,7 @@
             android:layout_width="0dp"
             android:layout_height="54dp"
             android:layout_marginTop="30dp"
-            android:background="@drawable/buttton_strikeshap"
+            android:background="@drawable/buttton_stroke"
             android:text="Sign in"
             android:textAllCaps="false"
             android:textColor="#FFFEFE"

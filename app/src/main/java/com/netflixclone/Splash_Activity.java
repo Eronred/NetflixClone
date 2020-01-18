@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class Splash_Activity extends AppCompatActivity {
 
     //Thats for duration
-    static int durationofpass=10000;
+    static int durationofpass=4000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
