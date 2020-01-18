@@ -15,7 +15,7 @@ so what is **Firebase**?
 
 
 
-### One week
+### First week
 1) Netflix splash screen added.
 2) Netflix sign in activity added. (TextInputEditText, toolbar etc.)
 
@@ -25,7 +25,7 @@ _1_
 _2_
 ![Sign_in_Screen](https://user-images.githubusercontent.com/43992376/72363448-edab1d80-3705-11ea-9bf9-928c1c9beaa9.png)
 
-### Two week
+### Second week
 1) Netflix sign up activity 
 2  Netflix slider screen
 
