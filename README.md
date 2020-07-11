@@ -27,6 +27,20 @@ _2_
 
 ### Second week
 1) Netflix sign up activity 
-2  Netflix slider screen
+2)  Netflix slider screen
 
+## Contributions Best Practices
 
+### For first time Contributors
+
+First-time contributors can read [CONTRIBUTING.md](/CONTRIBUTING.md) file for help regarding creating issues and sending pull requests.
+
+### Branch Policy
+
+We have the following branches
+
+ * **development** All development goes on in this branch. If you're contributing, you are supposed to make a pull request to _development_. PRs to development branch will be reviewed and merged.
+
+### Join the development
+
+* Before you join the development, please set up the project on your local machine, run it and go through the application completely. Press on any button you can find and see where it leads to. Explore. (Don't worry ... Nothing will happen to the app or you due to the exploring :wink: Only thing that will happen is, you'll be more familiar with what is where and might even get some cool ideas on how to improve various aspects of the app.)
