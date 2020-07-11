@@ -1,0 +1,9 @@
+// Do not touch this file or change any credentials here
+android.signingConfigs {
+    debug {
+        keyAlias = "nclone" // Key alias
+        keyPassword = "nclone" // Key password
+        storeFile = rootProject.file('keystore/debug.keystore') // Importing the debug keystore
+        storePassword = "nclone" // Store password
+    }
+}

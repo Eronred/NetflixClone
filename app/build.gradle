@@ -1,6 +1,9 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 
+// Include signing configs
+apply from: './signingconfigs.gradle'
+
 android {
     compileSdkVersion 30
     buildToolsVersion "29.0.3"
@@ -10,9 +13,14 @@ android {
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
+        signingConfig signingConfigs.debug // Adding debug as our default signed built
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
+        debug { // Added the debug credentials
+            signingConfig signingConfigs.debug
+            minifyEnabled false
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
@@ -22,12 +30,20 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    // Android Support
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+
+    // Firebase
     implementation 'com.google.firebase:firebase-auth:19.3.2'
     implementation 'com.google.firebase:firebase-analytics:17.4.4'
+
+    // Material Design
+    implementation 'com.google.android.material:material:1.0.0'
+
+    // Unit Test
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    implementation 'com.google.android.material:material:1.0.0'
 }
