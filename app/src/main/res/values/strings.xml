@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">NetflixClone</string>
+    <string name="mail_input">Email or phone number</string>
+    <string name="_input">Password</string>
 </resources>

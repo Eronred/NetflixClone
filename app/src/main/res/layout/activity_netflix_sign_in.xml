@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1A1A1A"
+    android:background="#000000"
     tools:context=".NetflixSignIn">
 
 
@@ -50,8 +50,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
                 android:background="@null"
-
-                android:hint="Email or phone number"
+                android:hint="@string/mail_input"
                 android:padding="10dp"
                 android:textColor="#ffff"
                 android:textColorHint="#FFFEFE" />
@@ -86,7 +85,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
                 android:background="@null"
-                android:hint="Password"
+                android:hint="@string/_input"
                 android:inputType="textPassword"
                 android:padding="10dp"
                 android:textColor="#ffff" />
