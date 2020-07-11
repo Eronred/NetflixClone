@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "289254371369-nqrdfubd6bmtnjhoojmfla8ksdice8b2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.netflixclone",
+            "certificate_hash": "a594c2a3ff8a24bc85aec526945e7b9c91ee81b4"
+          }
+        },
+        {
           "client_id": "289254371369-frsm1b0846hinuoh7qa2i51h97n9as14.apps.googleusercontent.com",
           "client_type": 3
         }
