@@ -25,7 +25,7 @@
                 app:layout_constraintBottom_toBottomOf="@+id/back_arrowtopic"
                 app:layout_constraintStart_toEndOf="@+id/back_arrowtopic"
                 app:layout_constraintTop_toTopOf="@+id/back_arrowtopic"
-                app:srcCompat="@drawable/ic_netflix_icontext" />
+                app:srcCompat="@drawable/ic_netflix_icon_text" />
 
             <ImageView
                 android:id="@+id/back_arrowtopic"
