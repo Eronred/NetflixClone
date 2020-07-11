@@ -2,4 +2,7 @@
     <string name="app_name">NetflixClone</string>
     <string name="mail_input">Email or phone number</string>
     <string name="_input">Password</string>
+    <string name="need_help">Need help?</string>
+    <string name="new_netflix_sign_up">New to Netflix? Sign up now.</string>
+    <string name="sign_in">Sign in</string>
 </resources>

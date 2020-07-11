@@ -7,10 +7,7 @@
     android:background="#000000"
     tools:context=".NetflixSignIn">
 
-
-
-      <include layout="@layout/toolbar_signup"></include>
-
+    <include layout="@layout/toolbar_sign_up" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -23,20 +20,18 @@
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout"
             style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
-            android:background="#2B2B2B"
-
-
             android:layout_width="0dp"
             android:layout_height="61dp"
-            android:padding="1dp"
             android:layout_marginStart="32dp"
             android:layout_marginEnd="32dp"
+            android:background="#2B2B2B"
+            android:padding="1dp"
             android:textColorHint="#A8A6A6"
             app:boxBackgroundMode="filled"
-            app:boxCornerRadiusTopEnd="10dp"
-            app:boxCornerRadiusTopStart="10dp"
             app:boxCornerRadiusBottomEnd="10dp"
             app:boxCornerRadiusBottomStart="10dp"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -45,6 +40,7 @@
             app:layout_constraintVertical_bias="0.346">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/text_input_username"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="5dp"
@@ -54,6 +50,7 @@
                 android:padding="10dp"
                 android:textColor="#ffff"
                 android:textColorHint="#FFFEFE" />
+
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -63,16 +60,15 @@
             android:layout_height="61dp"
             android:layout_marginStart="32dp"
             android:layout_marginTop="16dp"
-            android:padding="1dp"
-
             android:layout_marginEnd="32dp"
             android:background="#2B2B2B"
+            android:padding="1dp"
             android:textColorHint="#A8A6A6"
             app:boxBackgroundMode="filled"
-            app:boxCornerRadiusTopEnd="10dp"
-            app:boxCornerRadiusTopStart="10dp"
             app:boxCornerRadiusBottomEnd="10dp"
             app:boxCornerRadiusBottomStart="10dp"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp"
             app:errorEnabled="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -80,6 +76,7 @@
             app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/text_input_password"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="5dp"
@@ -89,48 +86,50 @@
                 android:inputType="textPassword"
                 android:padding="10dp"
                 android:textColor="#ffff" />
+
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
-            android:id="@+id/tedfdsxtView"
+            android:id="@+id/need_help_textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:text="Need help?"
+            android:text="@string/need_help"
             android:textColor="#A8A6A6"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@+id/textInputLayout2"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="@+id/textInputLayout2"
-            app:layout_constraintTop_toBottomOf="@+id/button" />
+            app:layout_constraintTop_toBottomOf="@+id/button_sign_in" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/new_netflix_sign_up_textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="84dp"
-            android:text="New to Netflix? Sign up now."
+            android:text="@string/new_netflix_sign_up"
             android:textColor="#A8A6A6"
             android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="@+id/tedfdsxtView"
             android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/need_help_textView"
             app:layout_constraintHorizontal_bias="0.496"
-            app:layout_constraintStart_toStartOf="@+id/tedfdsxtView"
-            app:layout_constraintTop_toBottomOf="@+id/tedfdsxtView" />
+            app:layout_constraintStart_toStartOf="@+id/need_help_textView"
+            app:layout_constraintTop_toBottomOf="@+id/need_help_textView" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_sign_in"
             android:layout_width="0dp"
             android:layout_height="54dp"
             android:layout_marginTop="30dp"
-            android:background="@drawable/buttton_stroke"
-            android:text="Sign in"
+            android:background="@drawable/button_stroke"
+            android:text="@string/sign_in"
             android:textAllCaps="false"
             android:textColor="#FFFEFE"
             android:textSize="19sp"
             app:layout_constraintEnd_toEndOf="@+id/textInputLayout2"
             app:layout_constraintStart_toStartOf="@+id/textInputLayout2"
             app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
