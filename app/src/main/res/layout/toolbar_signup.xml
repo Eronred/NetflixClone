@@ -7,7 +7,7 @@
 
         android:layout_width="match_parent"
         android:layout_height="65dp"
-        android:background="#0C0101"
+        android:background="#000000"
         android:theme="@style/Theme.AppCompat.Light.Dialog"
         app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
@@ -38,20 +38,6 @@
 
             </ImageView>
 
-            <TextView
-                android:id="@+id/topic_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="16dp"
-                android:gravity="end"
-                android:text="Help"
-                android:textColor="#ffffff"
-                android:textSize="15dp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="@+id/back_arrowtopic"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/back_arrowtopic"
-                app:layout_constraintVertical_bias="0.6" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.appcompat.widget.Toolbar>
