@@ -3,4 +3,10 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#010C0A</color>
     <color name="colorAccent">#FFFFFF</color>
+
+    // bottom navigation bar color codes start
+    <color name="item_selected">#ffffff</color>
+    <color name="item_unselected">#50ffffff</color>
+    <color name="navigation_background">#171717</color>
+    // bottom navigation bar color codes ends
 </resources>
