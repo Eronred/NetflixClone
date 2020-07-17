@@ -5,4 +5,9 @@
     <string name="need_help">Need help?</string>
     <string name="new_netflix_sign_up">New to Netflix? Sign up now.</string>
     <string name="sign_in">Sign in</string>
+    <string name="home_btn">Home</string>
+    <string name="search_btn">Search</string>
+    <string name="coming_soon_btn">Coming Soon</string>
+    <string name="downloads_btn">Downloads</string>
+    <string name="more_btn">More</string>
 </resources>
