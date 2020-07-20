@@ -18,7 +18,6 @@ public class Splash_Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         splashscreenstart();
 
     }

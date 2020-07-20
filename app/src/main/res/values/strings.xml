@@ -10,4 +10,6 @@
     <string name="coming_soon_btn">Coming Soon</string>
     <string name="downloads_btn">Downloads</string>
     <string name="more_btn">More</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
