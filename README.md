@@ -1,6 +1,6 @@
 # NetflixClone
 
-### This app was made to teach android studio. Please do not use for your Google play app.
+### This app was made to teach android studio.
 
 **I will add new features each week that you saw on Netflix so it will be a little long series.**
 
